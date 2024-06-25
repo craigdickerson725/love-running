@@ -18,6 +18,12 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+h1, h2, h3 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #252525;
+}
 
 /* Header */
 header {
@@ -30,13 +36,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-}
-
-h1, h2, h3 {
-    font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #252525;
 }
 
 header a {
@@ -115,6 +114,33 @@ main {
     color: #ffffff;
 }
 
+/* Reasons Section */
+#reasons {
+    width: 90%;
+    margin: 20px auto;
+}
+
+#reasons h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 280%;
+}
+
+#benefits-physical > div, 
+#benefits-mental > div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#benefits p {
+    padding: 0 20px;
+}
+
+#benefits hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+
 /* Footer */
 #social-networks {
     text-align: center;
@@ -162,7 +188,6 @@ main {
     /* Main content */
     main {
         /* Push main content down to accommodate larger header */
-        flex: 1 0 auto;
         margin-top: 79px;
     }
 
